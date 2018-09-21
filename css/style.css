@@ -1,0 +1,118 @@
+.jumbotron-bg{
+    background-image: url(https://picsum.photos/1000/500?image=803);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.jumbotron h1{
+    color: rgb(154, 156, 9);
+}
+.jumbotron p{
+    color:  rgb(154, 156, 9);
+    }
+.overlay{
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top:0;
+}
+
+body{
+    margin-top: 50px;
+}
+.isi{
+    background-color:whitesmoke;
+}
+.tentang{
+    box-shadow: 6px;
+}
+.produk{
+    background-color:whitesmoke;
+    padding-bottom: 10px;
+}
+.isi hr{
+    width: 30px;
+    height: 8px;
+    color: green;
+}
+.produk li{
+    list-style: none;
+    margin-left: 5px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    float: left;
+}
+.produk li span{
+    font-weight: bold;
+    text-shadow: 1px green;
+    display: block;
+    width: 120px;
+    height:120px;
+    background-color:grey;
+    position: absolute;
+    top:0;
+    opacity: 0;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 50%;
+    color:white;
+    transform: scale(0) rotate(0deg);
+    transition: 0.3s;
+}
+li a:hover span{
+    opacity: 0.6;
+    transform: scale(1) rotate(360deg);
+
+}
+.kontak{
+    background-color:green;
+    color: white;
+}
+.footer{
+    margin-top: 10px;
+    background-color:gray;
+    padding: 10px;
+    text-align: center;
+    color: azure;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
